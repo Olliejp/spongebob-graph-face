@@ -3,26 +3,24 @@ from config_ import category_tree
 import igraph as ig
 import plotly.graph_objects as go
 
+st.markdown("""
+    <style>
+        #MainMenu {visibility: hidden;}
+        .stDeployButton {display:none;}
+        footer {visibility: hidden;}
+        #stDecoration {display:none;} 
+        .st-emotion-cache-z5fcl4 {
+        width: 100%;
+        padding: 3rem 3rem 10rem;
+        min-width: auto;
+        max-width: initial;
+        }
+        #GithubIcon {visibility: hidden;}
+        .st-emotion-cache-zq5wmm {visibility: hidden;}
+    </style>
+""", unsafe_allow_html=True)
+
 st.set_page_config(layout="wide")
-
-#st.markdown("""
-#    <style>
-#        #MainMenu {visibility: hidden;}
-#        .stDeployButton {display:none;}
-#        footer {visibility: hidden;}
-#        #stDecoration {display:none;} 
-#        .st-emotion-cache-z5fcl4 {
-#        width: 100%;
-#        padding: 3rem 3rem 10rem;
-#        min-width: auto;
-#        max-width: initial;
-#        }
-#        #GithubIcon {visibility: hidden;}
-#        .st-emotion-cache-zq5wmm {visibility: hidden;}
-#    </style>
-#""", unsafe_allow_html=True)
-
-
 
 def build_full_path_for_node(node, tree):
     path = []
