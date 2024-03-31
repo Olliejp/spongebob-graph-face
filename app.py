@@ -18,6 +18,7 @@ st.markdown("""
         max-width: initial;
         }
         #GithubIcon {visibility: hidden;}
+        .st-emotion-cache-zq5wmm {visibility: hidden;}
     </style>
 """, unsafe_allow_html=True)
 
