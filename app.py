@@ -1,11 +1,9 @@
 import streamlit as st
-#from config_ import category_tree
+from config_ import category_tree
 import igraph as ig
 import plotly.graph_objects as go
 
 st.set_page_config(layout="wide")
-
-category_tree = st.secrets["CAT_TREE"]
 
 st.markdown("""
     <style>
