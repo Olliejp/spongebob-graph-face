@@ -17,6 +17,7 @@ st.markdown("""
         min-width: auto;
         max-width: initial;
         }
+        #GithubIcon {visibility: hidden;}
     </style>
 """, unsafe_allow_html=True)
 
