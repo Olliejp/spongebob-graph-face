@@ -21,7 +21,6 @@ import plotly.graph_objects as go
 #""", unsafe_allow_html=True)
 
 st.set_page_config(layout="wide")
-st.set_page_config(menu_items=None)
 
 def build_full_path_for_node(node, tree):
     path = []
