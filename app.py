@@ -22,23 +22,6 @@ st.set_page_config(layout="wide")
 #    </style>
 #""", unsafe_allow_html=True)
 
-hide_menu_style = """
-        <style>
-        #MainMenu {visibility: hidden;}
-        .stDeployButton {display:none;}
-        footer {visibility: hidden;}
-        #stDecoration {display:none;} 
-        .st-emotion-cache-z5fcl4 {
-        width: 100%;
-        padding: 3rem 3rem 10rem;
-        min-width: auto;
-        max-width: initial;
-        }
-        #GithubIcon {visibility: hidden;}
-        .st-emotion-cache-zq5wmm {visibility: hidden;}
-        </style>
-        """
-st.markdown(hide_menu_style, unsafe_allow_html=True)
 
 
 def build_full_path_for_node(node, tree):
